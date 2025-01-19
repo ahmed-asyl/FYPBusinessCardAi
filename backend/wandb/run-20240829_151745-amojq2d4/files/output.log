@@ -1,0 +1,102 @@
+preprocessor_config.json: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 135/135 [00:00<00:00, 30.0kB/s]
+C:\Users\a_ld7\PycharmProjects\businessCardAI\venv\lib\site-packages\huggingface_hub\file_download.py:159: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\a_ld7\.cache\huggingface\hub\models--microsoft--layoutlmv2-base-uncased. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to see activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+vocab.txt: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 232k/232k [00:00<00:00, 437kB/s]
+config.json: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 707/707 [00:00<00:00, 219kB/s]
+C:\Users\a_ld7\PycharmProjects\businessCardAI\venv\lib\site-packages\transformers\tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pytorch_model.bin: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 802M/802M [04:39<00:00, 2.87MB/s]
+Traceback (most recent call last):
+  File "C:\Users\a_ld7\PycharmProjects\businessCardAI\app.py", line 21, in <module>
+    train_model(train_data, eval_data, num_labels)
+  File "C:\Users\a_ld7\PycharmProjects\businessCardAI\scripts\train.py", line 37, in train_model
+    model = LayoutLMv2ForTokenClassification.from_pretrained("microsoft/layoutlmv2-base-uncased", num_labels=num_labels)
+  File "C:\Users\a_ld7\PycharmProjects\businessCardAI\venv\lib\site-packages\transformers\modeling_utils.py", line 3832, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+  File "C:\Users\a_ld7\PycharmProjects\businessCardAI\venv\lib\site-packages\transformers\models\layoutlmv2\modeling_layoutlmv2.py", line 1145, in __init__
+    self.layoutlmv2 = LayoutLMv2Model(config)
+  File "C:\Users\a_ld7\PycharmProjects\businessCardAI\venv\lib\site-packages\transformers\models\layoutlmv2\modeling_layoutlmv2.py", line 700, in __init__
+    requires_backends(self, "detectron2")
+  File "C:\Users\a_ld7\PycharmProjects\businessCardAI\venv\lib\site-packages\transformers\utils\import_utils.py", line 1531, in requires_backends
+    raise ImportError("".join(failed))
+ImportError:
+LayoutLMv2Model requires the detectron2 library but it was not found in your environment. Checkout the instructions on the
+installation page: https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.

@@ -1,0 +1,19 @@
+C:\Users\a_ld7\PycharmProjects\businessCardAI\venv\lib\site-packages\transformers\tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Traceback (most recent call last):
+  File "C:\Users\a_ld7\PycharmProjects\businessCardAI\app.py", line 21, in <module>
+    train_model(train_data, eval_data, num_labels)
+  File "C:\Users\a_ld7\PycharmProjects\businessCardAI\scripts\train.py", line 37, in train_model
+    model = LayoutLMv2ForTokenClassification.from_pretrained("microsoft/layoutlmv2-base-uncased", num_labels=num_labels)
+  File "C:\Users\a_ld7\PycharmProjects\businessCardAI\venv\lib\site-packages\transformers\modeling_utils.py", line 3832, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+  File "C:\Users\a_ld7\PycharmProjects\businessCardAI\venv\lib\site-packages\transformers\models\layoutlmv2\modeling_layoutlmv2.py", line 1145, in __init__
+    self.layoutlmv2 = LayoutLMv2Model(config)
+  File "C:\Users\a_ld7\PycharmProjects\businessCardAI\venv\lib\site-packages\transformers\models\layoutlmv2\modeling_layoutlmv2.py", line 700, in __init__
+    requires_backends(self, "detectron2")
+  File "C:\Users\a_ld7\PycharmProjects\businessCardAI\venv\lib\site-packages\transformers\utils\import_utils.py", line 1531, in requires_backends
+    raise ImportError("".join(failed))
+ImportError:
+LayoutLMv2Model requires the detectron2 library but it was not found in your environment. Checkout the instructions on the
+installation page: https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.

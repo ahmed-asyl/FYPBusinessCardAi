@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2024-08-29T10:36:59.818099",
+    "startedAt": "2024-08-29T10:36:58.493182",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\a_ld7\\PycharmProjects\\businessCardAI\\app.py",
+    "codePathLocal": "app.py",
+    "codePath": "app.py",
+    "host": "DESKTOP-PO9IFUR",
+    "username": "a_ld7",
+    "executable": "C:\\Users\\a_ld7\\PycharmProjects\\businessCardAI\\venv\\Scripts\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 3500.0,
+        "min": 0.0,
+        "max": 3500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3500.0,
+            "min": 0.0,
+            "max": 3500.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 930.8794288635254,
+            "used": 884.7476539611816
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2060 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2060 SUPER",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.840572357177734
+    }
+}

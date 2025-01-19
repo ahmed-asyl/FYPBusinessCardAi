@@ -1,0 +1,27 @@
+2024-08-29 15:02:46,131 INFO    MainThread:31088 [wandb_setup.py:_flush():77] Current SDK version is 0.17.8
+2024-08-29 15:02:46,132 INFO    MainThread:31088 [wandb_setup.py:_flush():77] Configure stats pid to 31088
+2024-08-29 15:02:46,132 INFO    MainThread:31088 [wandb_setup.py:_flush():77] Loading settings from C:\Users\a_ld7\.config\wandb\settings
+2024-08-29 15:02:46,132 INFO    MainThread:31088 [wandb_setup.py:_flush():77] Loading settings from C:\Users\a_ld7\PycharmProjects\businessCardAI\wandb\settings
+2024-08-29 15:02:46,132 INFO    MainThread:31088 [wandb_setup.py:_flush():77] Loading settings from environment variables: {}
+2024-08-29 15:02:46,132 INFO    MainThread:31088 [wandb_setup.py:_flush():77] Applying setup settings: {'_disable_service': False}
+2024-08-29 15:02:46,132 INFO    MainThread:31088 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program_relpath': 'app.py', 'program_abspath': 'C:\\Users\\a_ld7\\PycharmProjects\\businessCardAI\\app.py', 'program': 'C:\\Users\\a_ld7\\PycharmProjects\\businessCardAI\\app.py'}
+2024-08-29 15:02:46,132 INFO    MainThread:31088 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-08-29 15:02:46,132 INFO    MainThread:31088 [wandb_init.py:_log_setup():524] Logging user logs to C:\Users\a_ld7\PycharmProjects\businessCardAI\wandb\run-20240829_150246-idg15qag\logs\debug.log
+2024-08-29 15:02:46,132 INFO    MainThread:31088 [wandb_init.py:_log_setup():525] Logging internal logs to C:\Users\a_ld7\PycharmProjects\businessCardAI\wandb\run-20240829_150246-idg15qag\logs\debug-internal.log
+2024-08-29 15:02:46,132 INFO    MainThread:31088 [wandb_init.py:init():607] calling init triggers
+2024-08-29 15:02:46,132 INFO    MainThread:31088 [wandb_init.py:init():614] wandb.init called with sweep_config: {}
+config: {}
+2024-08-29 15:02:46,132 INFO    MainThread:31088 [wandb_init.py:init():657] starting backend
+2024-08-29 15:02:46,132 INFO    MainThread:31088 [wandb_init.py:init():661] setting up manager
+2024-08-29 15:02:46,135 INFO    MainThread:31088 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-08-29 15:02:46,137 INFO    MainThread:31088 [wandb_init.py:init():669] backend started and connected
+2024-08-29 15:02:46,140 INFO    MainThread:31088 [wandb_init.py:init():767] updated telemetry
+2024-08-29 15:02:46,142 INFO    MainThread:31088 [wandb_init.py:init():800] communicating run to backend with 90.0 second timeout
+2024-08-29 15:02:46,819 ERROR   MainThread:31088 [wandb_init.py:init():826] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 403: Forbidden)
+2024-08-29 15:02:46,819 ERROR   MainThread:31088 [wandb_init.py:init():1238] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\a_ld7\PycharmProjects\businessCardAI\venv\lib\site-packages\wandb\sdk\wandb_init.py", line 1228, in init
+    return wi.init()
+  File "C:\Users\a_ld7\PycharmProjects\businessCardAI\venv\lib\site-packages\wandb\sdk\wandb_init.py", line 832, in init
+    raise error
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 403: Forbidden)
